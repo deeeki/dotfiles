@@ -5,7 +5,7 @@ do
 		cp $PWD/$i.sample $PWD/$i
 		echo "$PWD/$i.sample $PWD/$i"
 	fi
-#	mv ~/$i ~/$i.original
-#	ln -s $PWD/$i ~/$i
-#	echo "ln -s $PWD/$i ~/$i"
+	mv ~/$i ~/$i.original
+	ln -s $PWD/$i ~/$i
+	echo "ln -s $PWD/$i ~/$i"
 done
