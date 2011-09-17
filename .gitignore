@@ -1,0 +1,13 @@
+/*
+/*.
+
+!/symlink_dotfiles.sh
+!/.awsrc.sample
+!/.bashrc
+!/.bash_profile
+!/.gemrc
+!/.gitconfig.sample
+!/.gitexclude
+!/.gitignore
+!/.vimrc
+!/.ssh/config.sample

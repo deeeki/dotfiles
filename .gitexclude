@@ -1,0 +1,8 @@
+Thumbs.db
+.DS_Store
+.project
+.settings
+.rvmrc
+tags
+vendor/bundle/*
+restart.watchr

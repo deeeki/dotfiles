@@ -1,0 +1,7 @@
+[user]
+	email = deeeki+gh@gmail.com
+	name = deeeki
+[color]
+	ui = auto
+[core]
+	excludesfile = ~/.gitexclude
