@@ -12,7 +12,6 @@ alias pow="cd $HOME/Library/Application\ Support/Pow/Hosts/"
 
 # use MacVim-KaoryYa
 export EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
-alias vi='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
 alias vim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
 
 # MacPorts Installer addition: adding an appropriate PATH variable for use with MacPorts.
@@ -43,11 +42,11 @@ export EDITOR=vim
 #export JAVA_HOME='/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre'
 
 if [ -f /etc/bashrc ]; then
-	. /etc/bashrc
+	source /etc/bashrc
 fi
 
 if [ -f /etc/bash_completion ]; then
-	. /etc/bash_completion
+	source /etc/bash_completion
 fi
 #
 # Ubuntu
@@ -61,7 +60,7 @@ fi
 #
 # Common
 ################################################################################
-export PATH=$HOME/bin:$PATH
+[[ -d $HOME/bin ]] && export PATH=$HOME/bin:$PATH
 
 export CLICOLOR=1
 export LSCOLORS=gxfxcxdxbxegedabagacad
