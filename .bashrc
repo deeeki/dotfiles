@@ -9,6 +9,7 @@ alias rm='rm -i'
 alias mv='mv -i'
 alias cp='cp -i'
 alias pow="cd $HOME/Library/Application\ Support/Pow/Hosts/"
+alias oneliners="curl https://raw.github.com/gist/1073624/oneliners.sh"
 
 # use MacVim-KaoryYa
 export EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
