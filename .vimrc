@@ -10,6 +10,7 @@ call vundle#rc()
 Bundle 'bbommarito/vim-slim'
 Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdcommenter'
+Bundle 'scrooloose/nerdtree'
 Bundle 'Shougo/neocomplcache'
 Bundle 'Shougo/unite.vim'
 Bundle 'h1mesuke/vim-alignta'
