@@ -1,26 +1,28 @@
 set nocompatible
 
-" Vundle - management plugins
+" NeoBundle - management plugins
 " ------------------------------------------------------------------------------
-filetype off "required for Vundle
+filetype off "required for NeoBundle
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+if has('vim_starting')
+  set runtimepath+=~/.vim/bundle/neobundle.vim
+  call neobundle#rc(expand('~/.vim/bundle'))
+endif
 
-Bundle 'bbommarito/vim-slim'
-Bundle 'gmarik/vundle'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'scrooloose/nerdtree'
-Bundle 'Shougo/neocomplcache'
-Bundle 'Shougo/unite.vim'
-Bundle 'h1mesuke/vim-alignta'
-Bundle 'thinca/vim-ref'
-Bundle 'tpope/vim-rails'
-Bundle 'tpope/vim-haml'
-Bundle 'tpope/vim-surround'
-Bundle 'vim-ruby/vim-ruby'
+NeoBundle 'bbommarito/vim-slim'
+NeoBundle 'scrooloose/nerdcommenter'
+NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'Shougo/neobundle.vim'
+NeoBundle 'Shougo/neocomplcache'
+NeoBundle 'Shougo/unite.vim'
+NeoBundle 'h1mesuke/vim-alignta'
+NeoBundle 'thinca/vim-ref'
+NeoBundle 'tpope/vim-rails'
+NeoBundle 'tpope/vim-haml'
+NeoBundle 'tpope/vim-surround'
+NeoBundle 'vim-ruby/vim-ruby'
 if v:version >= 702
-Bundle 'ujihisa/quickrun'
+NeoBundle 'ujihisa/quickrun'
 endif
 
 " Setting
