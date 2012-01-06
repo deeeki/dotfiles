@@ -30,7 +30,9 @@ endif
 " ------------------------------------------------------------------------------
 filetype plugin indent on
 
-colorscheme darkblue
+if !has('gui_running')
+	colorscheme darkblue
+endif
 
 set fileformat=unix
 set fileencoding=utf-8
