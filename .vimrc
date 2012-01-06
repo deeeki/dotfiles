@@ -16,6 +16,7 @@ NeoBundle 'Shougo/neobundle.vim'
 NeoBundle 'Shougo/neocomplcache'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'h1mesuke/vim-alignta'
+NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'thinca/vim-ref'
 NeoBundle 'tpope/vim-rails'
 NeoBundle 'tpope/vim-haml'
@@ -28,6 +29,8 @@ endif
 " Setting
 " ------------------------------------------------------------------------------
 filetype plugin indent on
+
+colorscheme darkblue
 
 set fileformat=unix
 set fileencoding=utf-8
@@ -290,3 +293,13 @@ let g:unite_abbr_highlight = 'TabLine'
 
 " For optimize.
 let g:unite_source_file_mru_filename_format = ''
+
+" Indent Guides
+" --------------------------------------
+let g:indent_guides_enable_on_vim_startup = 1
+let g:indent_guides_auto_colors = 0
+augroup indentguides
+    autocmd!
+    autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=4
+    autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd ctermbg=0
+augroup END
