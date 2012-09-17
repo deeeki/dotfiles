@@ -10,5 +10,6 @@
 !/.gitconfig.sample
 !/.gitexclude
 !/.gitignore
+!/.rspec
 !/.vimrc
 !/.ssh/config.sample
