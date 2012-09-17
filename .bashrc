@@ -8,30 +8,18 @@ alias ls='ls -F'
 alias rm='rm -i'
 alias mv='mv -i'
 alias cp='cp -i'
-alias pow="cd $HOME/Library/Application\ Support/Pow/Hosts/"
 alias oneliners="curl https://raw.github.com/gist/1073624/oneliners.sh"
+
+export LC_CTYPE=ja_JP.UTF-8
 
 # use MacVim-KaoryYa
 export EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
 alias vim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
 
-# MacPorts Installer addition: adding an appropriate PATH variable for use with MacPorts.
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-# Finished adapting your PATH environment variable for use with MacPorts.
-
 # Bash completion
-if [ -f /opt/local/etc/bash_completion ]; then
-	source /opt/local/etc/bash_completion
+if [ -f `brew --prefix`/etc/bash_completion ]; then
+	source `brew --prefix`/etc/bash_completion
 fi
-
-# Apache2 (MacPorts)
-export PATH=/opt/local/apache2/bin:$PATH
-# MySQL (DMG package)
-export PATH=/usr/local/mysql/bin:$PATH
-export DYLD_LIBRARY_PATH=/usr/local/mysql/lib:$DYLD_LIBRARY_PATH
-export DYLD_FALLBACK_LIBRARY_PATH=/usr/local/mysql/lib:$DYLD_FALLBACK_LIBRARY_PATH
-
-export JAVA_HOME=/Library/Java/Home
 
 elif [ `uname` = Linux ]; then
 #
@@ -40,7 +28,6 @@ elif [ `uname` = Linux ]; then
 if [ -f /etc/redhat-release ]; then
 
 export EDITOR=vim
-#export JAVA_HOME='/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre'
 
 if [ -f /etc/bashrc ]; then
 	source /etc/bashrc
@@ -74,5 +61,6 @@ fi
 
 # AWS
 [[ -s $HOME/.awsrc ]] && source $HOME/.awsrc
-# RVM
-[[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm # This loads RVM into a shell session.
+
+# rbenv
+eval "$(rbenv init -)"

@@ -4,6 +4,7 @@
 !/symlink_dotfiles.sh
 !/.awsrc.sample
 !/.bashrc
+!/.bashrc.outdated
 !/.bash_profile
 !/.gemrc
 !/.gitconfig.sample
