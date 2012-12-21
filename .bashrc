@@ -66,4 +66,4 @@ export PS1="\[\033[01;32m\]\u@\h\[\033[01;33m\] \w$GIT_BRANCH \n\[\033[01;"$PROM
 [[ -s $HOME/.awsrc ]] && source $HOME/.awsrc
 
 # rbenv
-eval "$(rbenv init -)"
+[[ -x `which rbenv` ]] && eval "$(rbenv init -)"
