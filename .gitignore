@@ -13,3 +13,4 @@
 !/.rspec
 !/.vimrc
 !/.ssh/config.sample
+!/.bundle/config
