@@ -1,8 +1,10 @@
 Thumbs.db
 .DS_Store
+.env
 .project
 .settings
+.rbenv-version
 .rvmrc
+restart.watchr
 tags
 vendor/bundle/*
-restart.watchr
