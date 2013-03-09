@@ -72,7 +72,7 @@ set backupskip=/tmp/*,/private/tmp/* "バックアップSkip (for crontab)
 "indentations
 au FileType ruby,eruby setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 au FileType html,coffee setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
-au FileType php setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
+au FileType php setlocal tabstop=2 shiftwidth=2
 
 nnoremap <C-h> :<C-u>help<Space>
 nnoremap <C-h><C-h> :<C-u>help<Space><C-r><C-w><Return>
