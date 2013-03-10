@@ -309,3 +309,15 @@ augroup indentguides
     autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=4
     autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd ctermbg=0
 augroup END
+
+" quickrun.vim
+" --------------------------------------
+"quickrun.vimでObjective-Cをコンパイル実行するための設定 - 今日もスミマセン。
+"http://d.hatena.ne.jp/snaka72/20110504/1304478843
+let g:quickrun_config = {
+  \   'objc': {
+  \     'command': 'cc',
+  \     'exec': ['%c %s -o %s:p:r -framework Foundation', '%s:p:r %a', 'rm -f %s:p:r'],
+  \     'tempfile': '{tempname()}.m',
+  \   }
+  \ }
