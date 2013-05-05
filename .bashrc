@@ -1,7 +1,6 @@
-#
-# Mac
-################################################################################
+# Mac ##########################################################################
 if [ `uname` = Darwin ]; then
+
 alias ll='ls -lwF'
 alias la='ls -A'
 alias ls='ls -F'
@@ -21,11 +20,8 @@ if [ -f `brew --prefix`/etc/bash_completion ]; then
 	source `brew --prefix`/etc/bash_completion
 fi
 
-elif [ `uname` = Linux ]; then
-#
-# CentOS
-################################################################################
-if [ -f /etc/redhat-release ]; then
+# CentOS #######################################################################
+elif [ -f /etc/redhat-release ]; then
 
 export EDITOR=vim
 
@@ -36,18 +32,15 @@ fi
 if [ -f /etc/bash_completion ]; then
 	source /etc/bash_completion
 fi
-#
-# Ubuntu
-################################################################################
+
+# Ubuntu #######################################################################
 elif [ -f /etc/lsb-release ]; then
 
 export EDITOR=vim
 
 fi
-fi
-#
-# Common
-################################################################################
+# Common #######################################################################
+
 [[ -d $HOME/bin ]] && export PATH=$HOME/bin:$PATH
 
 export CLICOLOR=1
