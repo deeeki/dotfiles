@@ -1,5 +1,5 @@
 #!/bin/sh
-for i in {.awsrc,.bash_profile,.bashrc,.gemrc,.gitconfig,.gitexclude,.rspec,.vimrc,.bundle/config,.ssh/config};
+for i in {.awsrc,.bash_profile,.bashrc,.gemrc,.gitconfig,.gitexclude,.oneliners,.rspec,.vimrc,.bundle/config,.ssh/config};
 do
 	if [ ! -f $PWD/$i -a -f $PWD/$i.sample ]; then
 		cp $PWD/$i.sample $PWD/$i

@@ -1,0 +1,52 @@
+# create ctags file
+ctags -f tags --totals -R `pwd`
+
+# grep under spaced filename
+find . -print0 | xargs -0 grep searchword
+
+# replace strings on multiple files directly
+find . -type f -print0 | xargs -0 sed -i '' 's/before/after/g'
+
+# change extension all
+for f in *.m4a; do mv $f ${f%.m4a}.m4b; done
+
+# uninstall all rubygems
+gem list | cut -d" " -f1 | xargs gem uninstall -aIx
+
+# kill specific processes
+pgrep -f SCREEN | xargs kill
+
+# graphical git log
+git log --graph --all --decorate --oneline -n 20
+
+# start mongodb (macports)
+/opt/local/bin/mongod --dbpath /var/lib/mongodb --logpath /var/log/mongodb.log
+
+# start mongodb using config file
+mongod --config /usr/local/etc/mongod.conf
+
+# urlencode
+echo '' | nkf -MQ | tr = %
+
+# urldecode
+echo '' | tr % = | nkf -mQ
+
+# resize image keeping aspect ratio
+sips -Z 144 *.jpg
+
+# encode to mp4 for iPhone. START and TIME are seconds or 00:00:00[.000]
+ffmpeg -i INPUT -s 432x320 -threads 0 -aspect 16:9 -vcodec libx264 -b 768k -crf 23.0 -level 30 -qmin 10 -acodec libfaac -ab 128k -ac 2 -ar 48000 -f mp4 -r 29.97 -y -ss START -t TIME OUTPUT
+
+# update ssl certificate (CentOS)
+curl http://curl.haxx.se/ca/cacert.pem -o /etc/pki/tls/certs/ca-bundle.crt
+
+# change libmysqlclient path. via: http://stackoverflow.com/questions/4546698/library-not-loaded-libmysqlclient-16-dylib-error-when-trying-to-run-rails-serv
+sudo install_name_tool -change libmysqlclient.16.dylib /usr/local/mysql/lib/libmysqlclient.16.dylib `pwd`/vendor/bundle/ruby/1.9.1/gems/mysql2-0.2.17/lib/mysql2/mysql2.bundle
+
+# show hidden files on Mac. via: http://d.hatena.ne.jp/shunsuk/20090714/1247567640
+defaults write com.apple.finder AppleShowAllFiles TRUE; killall Finder
+
+# hide hidden files on Mac
+defaults write com.apple.finder AppleShowAllFiles FALSE; killall Finder
+
+# vim:ft=sh

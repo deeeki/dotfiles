@@ -10,7 +10,8 @@
 !/.gitconfig.sample
 !/.gitexclude
 !/.gitignore
+!/.oneliners
 !/.rspec
 !/.vimrc
-!/.ssh/config.sample
 !/.bundle/config
+!/.ssh/config.sample
