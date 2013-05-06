@@ -7,7 +7,8 @@ alias ls='ls -F'
 alias rm='rm -i'
 alias mv='mv -i'
 alias cp='cp -i'
-alias oneliners="curl https://raw.github.com/gist/1073624/oneliners.sh"
+alias 1l='cat ~/.oneliners'
+alias 1lg='cat ~/.oneliners | grep'
 
 export LC_CTYPE=ja_JP.UTF-8
 
