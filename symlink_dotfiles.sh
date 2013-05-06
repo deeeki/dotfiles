@@ -1,9 +1,11 @@
 #!/bin/sh
+SRC=$(cd "$(dirname "$0")"; pwd)
+
 for i in {.awsrc,.bash_profile,.bashrc,.gemrc,.gitconfig,.gitexclude,.oneliners,.rspec,.vimrc,.bundle/config,.ssh/config};
 do
-	if [ ! -f $PWD/$i -a -f $PWD/$i.sample ]; then
-		cp $PWD/$i.sample $PWD/$i
-		echo "copied $PWD/$i.sample $PWD/$i"
+	if [ ! -f $SRC/$i -a -f $SRC/$i.sample ]; then
+		cp $SRC/$i.sample $SRC/$i
+		echo "copied $SRC/$i.sample $SRC/$i"
 	fi
 	if [ ! -d `dirname ~/$i` ]; then
 		mkdir -p `dirname ~/$i`
@@ -14,7 +16,7 @@ do
 			mv ~/$i ~/$i.original
 			echo "moved ~/$i ~/$i.original"
 		fi
-		ln -s $PWD/$i ~/$i
-		echo "linked $PWD/$i ~/$i"
+		ln -s $SRC/$i ~/$i
+		echo "linked $SRC/$i ~/$i"
 	fi
 done
