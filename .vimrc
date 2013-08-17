@@ -86,6 +86,10 @@ autocmd BufWritePre * :%s/\s\+$//ge
 "保存時にtabをスペースに変換する
 "autocmd BufWritePre * :%s/\t/  /ge
 
+"複数行インデント連続実行
+vnoremap <silent> > >gv
+vnoremap <silent> < <gv
+
 "vimでスペースやTabなどの見えない文字を表示させる方法 - Life is Try and Error
 "http://d.hatena.ne.jp/potappo2/20061107/1162862536
 if has("syntax")
