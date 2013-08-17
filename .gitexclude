@@ -3,7 +3,7 @@ Thumbs.db
 .env
 .project
 .settings
-.rbenv-version
+.ruby-version
 .rvmrc
 restart.watchr
 tags
