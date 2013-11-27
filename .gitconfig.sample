@@ -3,6 +3,7 @@
 	name = deeeki
 [color]
 	ui = auto
+	quotepath = false
 [core]
 	excludesfile = ~/.gitexclude
 	quotepath = false
