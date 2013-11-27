@@ -20,6 +20,7 @@ alias 1l='cat ~/.oneliners'
 alias 1lg='cat ~/.oneliners | grep'
 
 [[ -d /Applications/Postgres.app ]] && export PATH=/Applications/Postgres.app/Contents/MacOS/bin:$PATH
+[[ -d `brew --prefix`/share/git-core/contrib/diff-highlight ]] && export PATH=`brew --prefix`/share/git-core/contrib/diff-highlight:$PATH
 
 # CentOS #######################################################################
 elif [ -f /etc/redhat-release ]; then

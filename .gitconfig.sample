@@ -7,3 +7,4 @@
 [core]
 	excludesfile = ~/.gitexclude
 	quotepath = false
+	pager = diff-highlight | less
