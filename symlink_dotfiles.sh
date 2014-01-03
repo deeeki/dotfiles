@@ -1,7 +1,7 @@
 #!/bin/sh
 SRC=$(cd "$(dirname "$0")"; pwd)
 
-for i in {.awsrc,.bash_profile,.bashrc,.gemrc,.gitconfig,.gitexclude,.oneliners,.rspec,.vimrc,.bundle/config,.ssh/config};
+for i in {.awsrc,.bash_profile,.bashrc,.gemrc,.gitconfig,.gitexclude,.oneliners,.rspec,.vimrc,.brew/Brewfile,.bundle/config,.ssh/config};
 do
 	if [ ! -f $SRC/$i -a -f $SRC/$i.sample ]; then
 		cp $SRC/$i.sample $SRC/$i

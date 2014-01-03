@@ -14,5 +14,6 @@
 !/.oneliners
 !/.rspec
 !/.vimrc
+!/.brew/Brewfile
 !/.bundle/config
 !/.ssh/config.sample
