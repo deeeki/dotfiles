@@ -1,6 +1,7 @@
 /*
 /*.
 
+!/README.md
 !/symlink_dotfiles.sh
 !/.awsrc.sample
 !/.bashrc
