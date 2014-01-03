@@ -70,8 +70,8 @@ set backupskip=/tmp/*,/private/tmp/* "バックアップSkip (for crontab)
 "au VimLeave * mks! ~/session.vim
 "au VimEnter * :so ~/session.vim
 
-"indentat
-au FileType html,xhtml,css,scss,coffee setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
+"indents
+au FileType html,xhtml,css,scss,javascript,coffee setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 au FileType ruby,eruby,cucumber setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 au FileType php setlocal tabstop=2 shiftwidth=2
 
