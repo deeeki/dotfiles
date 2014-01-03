@@ -34,6 +34,7 @@ elif [ -f /etc/redhat-release ]; then
 fi
 # Common #######################################################################
 
+[[ -f $HOME/.aliases ]] && source $HOME/.aliases
 [[ -s $HOME/.awsrc ]] && source $HOME/.awsrc
 
 [[ -d $HOME/bin ]] && export PATH=$HOME/bin:$PATH
