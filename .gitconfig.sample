@@ -7,3 +7,5 @@
 	excludesfile = ~/.gitexclude
 	quotepath = false
 	pager = diff-highlight | less
+[push]
+	default = simple
