@@ -1,10 +1,12 @@
 Thumbs.db
 .DS_Store
+.bundle
 .env
 .project
 .settings
 .ruby-version
 .rvmrc
+.vagrant
 restart.watchr
 tags
-vendor/bundle/*
+vendor/bundle
