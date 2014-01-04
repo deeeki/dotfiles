@@ -10,7 +10,6 @@ if has('vim_starting')
 endif
 
 NeoBundle 'airblade/vim-gitgutter'
-NeoBundle 'bbommarito/vim-slim'
 NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'scrooloose/nerdcommenter'
 NeoBundle 'scrooloose/nerdtree'
@@ -20,6 +19,7 @@ NeoBundle 'Shougo/unite.vim'
 NeoBundle 'h1mesuke/vim-alignta'
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'scrooloose/syntastic'
+NeoBundle 'slim-template/vim-slim'
 NeoBundle 'thinca/vim-ref'
 NeoBundle 'tpope/vim-rails'
 NeoBundle 'tpope/vim-haml'
