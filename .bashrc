@@ -43,6 +43,6 @@ export CLICOLOR=1
 export LSCOLORS=gxfxcxdxbxegedabagacad
 export LS_COLORS='di=36:fi=0:ln=95:so=91:pi=91:ex=93:bd=91;46:cd=91:or=37:mi=37:*.rpm=92'
 
-[[ -f $BASH_COMPLETION_DIR/git ]] && GIT_BRANCH='$(__git_ps1)'
+[[ `type __git_ps1 2>/dev/null` ]] && GIT_BRANCH='$(__git_ps1)'
 if [ `uname` = Darwin ]; then PROMPT_COLOR=34; else PROMPT_COLOR=31; fi
 export PS1="\[\033[01;32m\]\u@\h\[\033[01;33m\] \w$GIT_BRANCH \n\[\033[01;"$PROMPT_COLOR"m\]\$\[\033[00m\] "
