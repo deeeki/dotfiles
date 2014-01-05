@@ -20,3 +20,6 @@ install tig
 install tree
 install wget
 install wkhtmltopdf
+
+install djl/apache2/apache24
+install josegonzalez/php/php55 --homebrew-apxs
