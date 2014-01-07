@@ -12,6 +12,7 @@ install mysql
 install nkf
 install openssl
 install phantomjs
+install pow
 install qt
 install rbenv
 install readline
