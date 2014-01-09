@@ -12,6 +12,7 @@
 !/.gitexclude
 !/.gitignore
 !/.oneliners
+!/.powconfig
 !/.rspec
 !/.vimrc
 !/.brew/Brewfile
