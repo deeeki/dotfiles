@@ -20,3 +20,8 @@ do
 		echo "linked $SRC/$i ~/$i"
 	fi
 done
+
+# Vim
+if [ ! -d ~/.vim/bundle/neobundle.vim ]; then
+	git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
+fi
