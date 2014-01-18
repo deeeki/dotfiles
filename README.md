@@ -6,3 +6,8 @@ Use the same environment everywhere.
 
 1. Clone it
 2. Run `setup.sh`
+
+### Vim
+
+1. Open vim
+2. Run `:NeoBundleInstall`
