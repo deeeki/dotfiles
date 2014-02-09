@@ -155,6 +155,10 @@ endfunction
 "http://www.kadoppe.net/archives/2011/09/vim-html5-highlight-indent-erb.html
 autocmd BufRead,BufNewFile *.erb set filetype=eruby.html
 
+"VimでのMarkdown環境を整える - rcmdnk's blog
+"http://rcmdnk.github.io/blog/2013/11/17/computer-vim/
+autocmd BufNewFile,BufRead *.{md,mdwn,mkd,mkdn,mark*} set filetype=markdown
+
 "Keep lines fewer than 80 characters
 "https://github.com/bbatsov/ruby-style-guide#formatting
 if exists('+colorcolumn')
