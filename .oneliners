@@ -52,4 +52,7 @@ defaults write com.apple.finder AppleShowAllFiles FALSE; killall Finder
 # remove ruby1.9 magic comment
 find . -name 'vendor' -prune -o -name '*.rb' -print0 | xargs -0 sed -i '' '/coding: utf-8/d'
 
+# output Rails ER diagram. options: http://rails-erd.rubyforge.org/customise.html
+bundle exec rake erd attributes=foreign_keys,primary_keys,timestamps,inheritance,content indirect=false
+
 # vim:ft=sh
