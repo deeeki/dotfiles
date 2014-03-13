@@ -49,4 +49,7 @@ defaults write com.apple.finder AppleShowAllFiles TRUE; killall Finder
 # hide hidden files on Mac
 defaults write com.apple.finder AppleShowAllFiles FALSE; killall Finder
 
+# remove ruby1.9 magic comment
+find . -name 'vendor' -prune -o -name '*.rb' -print0 | xargs -0 sed -i '' '/coding: utf-8/d'
+
 # vim:ft=sh
