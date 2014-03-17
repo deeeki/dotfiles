@@ -5,6 +5,7 @@ install ctags
 install curl-ca-bundle
 install ffmpeg
 install ghostscript
+install gimp
 install git
 install graphviz
 install hub
