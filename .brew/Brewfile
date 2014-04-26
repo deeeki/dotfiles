@@ -8,6 +8,7 @@ install ghostscript
 install gimp
 install git
 install graphviz
+install heroku-toolbelt
 install hub
 install imagemagick
 install libyaml
