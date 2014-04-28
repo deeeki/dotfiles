@@ -18,6 +18,7 @@ install nkf
 install openssl
 install phantomjs
 install pow
+install postgres
 install qt
 install rbenv
 install readline
