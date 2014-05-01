@@ -9,3 +9,5 @@
 	pager = diff-highlight | less
 [push]
 	default = simple
+[pull]
+	rebase = true
