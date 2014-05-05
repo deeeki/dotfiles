@@ -43,6 +43,7 @@ set fileencoding=utf-8
 set enc=utf-8
 set noswapfile "スワップファイルなし
 set nobackup "バックアップなし
+set undodir=~/.vim/undo "undoファイル保存場所統一
 set laststatus=2 " 常にステータス行を表示 (詳細は:he laststatus)
 set statusline=%<%f\ %m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'}%=%l,%c%V%8P
 set number "行番号表示
