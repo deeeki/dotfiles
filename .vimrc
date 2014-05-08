@@ -10,6 +10,7 @@ if has('vim_starting')
 endif
 
 NeoBundle 'airblade/vim-gitgutter'
+NeoBundle 'groenewege/vim-less'
 NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'scrooloose/nerdcommenter'
 NeoBundle 'scrooloose/nerdtree'
