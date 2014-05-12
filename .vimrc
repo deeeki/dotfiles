@@ -26,6 +26,7 @@ NeoBundle 'thinca/vim-ref'
 NeoBundle 'tpope/vim-rails'
 NeoBundle 'tpope/vim-haml'
 NeoBundle 'tpope/vim-surround'
+NeoBundle 'vim-scripts/nginx.vim'
 NeoBundle 'vim-ruby/vim-ruby'
 if v:version >= 702
 NeoBundle 'ujihisa/quickrun'
