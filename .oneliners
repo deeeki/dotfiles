@@ -55,4 +55,7 @@ find . -name 'vendor' -prune -o -name '*.rb' -print0 | xargs -0 sed -i '' '/codi
 # output Rails ER diagram. options: http://rails-erd.rubyforge.org/customise.html
 bundle exec rake erd attributes=foreign_keys,primary_keys,timestamps,inheritance,content indirect=false
 
+# install ruby with configure options
+RUBY_CONFIGURE_OPTS="--with-readline-dir=`brew --prefix readline` --with-openssl-dir=`brew --prefix openssl`" rbenv install 2.1.0
+
 # vim:ft=sh
