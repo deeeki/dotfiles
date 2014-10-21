@@ -22,6 +22,7 @@ install postgres
 install qt
 install rbenv
 install readline
+install redis
 install ruby-build
 install tig
 install tree
