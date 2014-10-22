@@ -30,5 +30,5 @@ install tree
 install wget
 install wkhtmltopdf
 
-install djl/apache2/apache24
-install josegonzalez/php/php55 --homebrew-apxs
+install homebrew/apache/httpd24
+install homebrew/php/php56 --homebrew-apxs
