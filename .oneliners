@@ -58,4 +58,7 @@ bundle exec rake erd attributes=foreign_keys,primary_keys,timestamps,inheritance
 # install ruby with configure options
 RUBY_CONFIGURE_OPTS="--with-readline-dir=`brew --prefix readline` --with-openssl-dir=`brew --prefix openssl`" rbenv install 2.1.0
 
+# generate random string
+cat /dev/urandom | LC_CTYPE=C tr -dc '[:alnum:]' | head -c 16 | xargs echo
+
 # vim:ft=sh
