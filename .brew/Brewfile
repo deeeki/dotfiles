@@ -25,6 +25,7 @@ install rbenv
 install readline
 install redis
 install ruby-build
+install terminal-notifier
 install tig
 install tree
 install wget
