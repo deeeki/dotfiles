@@ -57,10 +57,13 @@ set shiftwidth=4 "シフト移動幅
 set list "不可視文字を表示
 set listchars=tab:>_,nbsp:%,extends:>,precedes:< "表示される文字フォーマット指定
 set showmatch "閉じ括弧入力時に対応する括弧を表示
+set matchtime=1 "showmatchの時間
 set whichwrap=b,s,h,l,<,>,[,] "カーソルを行頭/行末で止まらないように
 set wildmenu " コマンドライン補完するときに強化されたものを使う(参照 :help wildmenu)
 set smartcase "検索文字列に大文字が含まれている場合は区別して検索
 set backupskip=/tmp/*,/private/tmp/* "バックアップSkip (for crontab)
+set display=lastline "長い行表示
+set pumheight=10 "補完メニューの高さ
 "set paste "ペースト時にautoindentを無効に
 "set hidden "編集中でも保存せずに他のファイルを表示
 
