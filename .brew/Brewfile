@@ -1,6 +1,7 @@
 update
 
 install ansible
+install awscli
 install bash-completion
 install ctags
 install curl-ca-bundle
