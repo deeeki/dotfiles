@@ -5,6 +5,7 @@ install awscli
 install bash-completion
 install ctags
 install curl-ca-bundle
+install elixir
 install ffmpeg
 install ghostscript
 install gimp
