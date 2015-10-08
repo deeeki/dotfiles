@@ -10,6 +10,8 @@ export LC_CTYPE=ja_JP.UTF-8
 export EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
 alias vi='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
 
+alias brew='env PATH=${PATH/\/Users\/deeeki\/\.rbenv\/shims:/} brew'
+
 alias ll='ls -lwF'
 alias la='ls -A'
 alias ls='ls -F'
