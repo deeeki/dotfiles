@@ -50,6 +50,7 @@ set nobackup "バックアップなし
 set undodir=~/.vim/undo "undoファイル保存場所統一
 set laststatus=2 " 常にステータス行を表示 (詳細は:he laststatus)
 set statusline=%<%f\ %m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'}%=%l,%c%V%8P
+set autoread "ファイル変更時自動再読み込み
 set number "行番号表示
 set title "タイトル表示
 set cursorline "カーソル行をハイライト
