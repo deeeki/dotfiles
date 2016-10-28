@@ -11,6 +11,7 @@ endif
 
 NeoBundle 'airblade/vim-gitgutter'
 NeoBundle 'elixir-lang/vim-elixir'
+NeoBundle 'gre/play2vim'
 NeoBundle 'groenewege/vim-less'
 NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'mustache/vim-mustache-handlebars'
@@ -177,6 +178,28 @@ else
 	" Emulate
 	au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%80v.\+', -1)
 endif
+
+function! IndentAll()
+  normal mxgg=G'x
+  delmarks x
+endfunction
+
+function! AlignCode()
+  retab
+  call IndentAll()
+endfunction
+
+function! AlignAllBuf()
+  for i in  range(1, bufnr("$"))
+    if buflisted(i)
+      execute "buffer" i
+      call AlignCode()
+      update
+      bdelete
+    endif
+  endfor
+  quit
+endfunction
 
 " Plugins
 " ------------------------------------------------------------------------------
