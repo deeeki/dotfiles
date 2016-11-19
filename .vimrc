@@ -84,6 +84,7 @@ set pumheight=10 "補完メニューの高さ
 "indents
 au FileType html,xhtml,css,scss,sass,less,javascript,coffee,handlebars setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 au FileType ruby,eruby,cucumber setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
+au FileType perl setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
 au FileType php setlocal tabstop=2 shiftwidth=2
 
 nnoremap <C-h> :<C-u>help<Space>
