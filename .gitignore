@@ -12,6 +12,7 @@
 !/.gitexclude
 !/.gitignore
 !/.git_templatedir
+!/.mackup
 !/.oneliners
 !/.powconfig
 !/.rspec
