@@ -2,7 +2,7 @@
 /*.
 
 !/README.md
-!/symlink_dotfiles.sh
+!/setup.sh
 !/.awsrc.sample
 !/.bashrc
 !/.bash_profile
