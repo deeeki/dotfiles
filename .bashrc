@@ -1,6 +1,8 @@
 # Mac ##########################################################################
 if [ `uname` = Darwin ]; then
 
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
 [[ -f `brew --prefix`/etc/bash_completion ]] && source `brew --prefix`/etc/bash_completion
 
 [[ -f `brew --prefix`/bin/rbenv ]] && eval "$(rbenv init -)"
