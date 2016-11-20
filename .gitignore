@@ -11,6 +11,7 @@
 !/.gitconfig.sample
 !/.gitexclude
 !/.gitignore
+!/.git_templatedir
 !/.oneliners
 !/.powconfig
 !/.rspec
