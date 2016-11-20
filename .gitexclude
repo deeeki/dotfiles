@@ -2,6 +2,7 @@ Thumbs.db
 .DS_Store
 .bundle
 .env
+.envrc
 .project
 .settings
 .ruby-version
