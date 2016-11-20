@@ -6,6 +6,7 @@
 !/.awsrc.sample
 !/.bashrc
 !/.bash_profile
+!/.Brewfile
 !/.gemrc
 !/.gitconfig.sample
 !/.gitexclude
