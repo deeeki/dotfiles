@@ -3,16 +3,14 @@ if [ `uname` = Darwin ]; then
 
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
-[[ -f `brew --prefix`/etc/bash_completion ]] && source `brew --prefix`/etc/bash_completion
+[[ -f ~/.anyenv/bin/anyenv ]] && export PATH="$HOME/.anyenv/bin:$PATH" && eval "$(anyenv init -)"
 
-[[ -f `brew --prefix`/bin/rbenv ]] && eval "$(rbenv init -)"
+[[ -f `brew --prefix`/etc/bash_completion ]] && source `brew --prefix`/etc/bash_completion
 
 export LC_CTYPE=ja_JP.UTF-8
 
 export EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
 alias vi='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
-
-alias brew='env PATH=${PATH/\/Users\/deeeki\/\.rbenv\/shims:/} brew'
 
 alias ll='ls -lwF'
 alias la='ls -A'
