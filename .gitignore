@@ -8,10 +8,10 @@
 !/.bash_profile
 !/.Brewfile
 !/.gemrc
-!/.gitconfig.sample
-!/.gitexclude
-!/.gitignore
+!/.git_excludesfile
 !/.git_templatedir
+!/.gitconfig.sample
+!/.gitignore
 !/.mackup
 !/.oneliners
 !/.powconfig

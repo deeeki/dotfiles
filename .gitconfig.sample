@@ -4,10 +4,17 @@
 [color]
 	ui = auto
 [core]
-	excludesfile = ~/.gitexclude
+	excludesfile = ~/.git_excludesfile
 	quotepath = false
 	pager = diff-highlight | less
+	editor = vim
+[init]
+	templatedir = ~/.git_templatedir
 [push]
 	default = simple
 [pull]
 	rebase = true
+[merge]
+	conflictstyle = diff3
+[rebase]
+	autosquash = true
