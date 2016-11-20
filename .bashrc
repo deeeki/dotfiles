@@ -6,6 +6,7 @@ export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 [[ -f ~/.anyenv/bin/anyenv ]] && export PATH="$HOME/.anyenv/bin:$PATH" && eval "$(anyenv init -)"
 
 [[ -f `brew --prefix`/etc/bash_completion ]] && source `brew --prefix`/etc/bash_completion
+[[ -d `brew --prefix`/share/git-core/contrib/diff-highlight ]] && export PATH=`brew --prefix`/share/git-core/contrib/diff-highlight:$PATH
 
 export LC_CTYPE=ja_JP.UTF-8
 
@@ -20,8 +21,6 @@ alias mv='mv -i'
 alias cp='cp -i'
 alias 1l='cat ~/.oneliners'
 alias 1lg='cat ~/.oneliners | grep'
-
-[[ -d `brew --prefix`/share/git-core/contrib/diff-highlight ]] && export PATH=`brew --prefix`/share/git-core/contrib/diff-highlight:$PATH
 
 eval "$(direnv hook bash)"
 
