@@ -52,5 +52,5 @@ export PS1="\[\033[01;32m\]\u@\h\[\033[01;33m\] \w$GIT_BRANCH \n\[\033[01;"$PROM
 export HISTCONTROL=ignoreboth:erasedups
 export HISTSIZE=100000
 export HISTTIMEFORMAT="%F %T "
-shopt -s histappend
-PROMPT_COMMAND="history -n; history -w; history -c; history -r; $PROMPT_COMMAND"
+shopt -u histappend
+PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
