@@ -61,4 +61,6 @@ RUBY_CONFIGURE_OPTS="--with-readline-dir=`brew --prefix readline` --with-openssl
 # generate random string
 cat /dev/urandom | LC_CTYPE=C tr -dc '[:alnum:]' | head -c 16 | xargs echo
 
+# grep multibyte string
+find . -type f | xargs grep [０-９Ａ-ｚ、-◯ぁ-んァ-ヶ亜-腕弌-熙]
 # vim:ft=sh
