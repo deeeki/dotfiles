@@ -3,6 +3,7 @@ tap 'caskroom/homebrew-versions'
 tap 'homebrew/apache'
 tap 'homebrew/bundle'
 tap 'homebrew/core'
+tap 'homebrew/python'
 tap 'homebrew/science'
 
 cask '1password'
@@ -41,6 +42,7 @@ brew 'mongodb', restart_service: true
 brew 'mysql', restart_service: true
 brew 'postgresql', restart_service: true
 brew 'pow'
+brew 'python3'
 brew 'redis', restart_service: true
 brew 'tig'
 brew 'tree'
@@ -49,4 +51,6 @@ brew 'watchman'
 brew 'wget'
 brew 'youtube-dl'
 brew 'homebrew/apache/httpd24'
+brew 'homebrew/python/numpy', args: ['with-python3']
 brew 'homebrew/science/opencv'
+brew 'homebrew/science/opencv3', args: ['with-python3']
