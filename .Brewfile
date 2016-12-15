@@ -30,7 +30,7 @@ brew 'ansible'
 brew 'bash-completion'
 brew 'ctags'
 brew 'direnv'
-brew 'ffmpeg', args: ['with-faac']
+brew 'ffmpeg', args: ['with-fdk-aac']
 brew 'git' # to enable git-completion.bash
 brew 'heroku'
 brew 'hub'
