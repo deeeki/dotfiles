@@ -7,6 +7,7 @@ export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
 [[ -f `brew --prefix`/etc/bash_completion ]] && source `brew --prefix`/etc/bash_completion
 [[ -d `brew --prefix`/share/git-core/contrib/diff-highlight ]] && export PATH=`brew --prefix`/share/git-core/contrib/diff-highlight:$PATH
+[[ -d `brew --prefix`/opt/android-sdk ]] && export ANDROID_HOME=`brew --prefix`/opt/android-sdk && export PATH=$ANDROID_HOME/tools:$PATH
 
 export LC_CTYPE=ja_JP.UTF-8
 
