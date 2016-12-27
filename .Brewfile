@@ -22,6 +22,7 @@ cask 'night-owl'
 cask 'sequel-pro'
 cask 'skype'
 cask 'slack'
+cask 'steam'
 cask 'the-unarchiver'
 cask 'vlc'
 
