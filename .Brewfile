@@ -51,6 +51,7 @@ brew 'tree'
 brew 'typesafe-activator'
 brew 'watchman'
 brew 'wget'
+brew 'yarn'
 brew 'youtube-dl'
 brew 'homebrew/apache/httpd24'
 brew 'homebrew/python/numpy', args: ['with-python3']
