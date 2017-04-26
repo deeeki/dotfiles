@@ -3,6 +3,7 @@ tap 'caskroom/homebrew-versions'
 tap 'homebrew/apache'
 tap 'homebrew/bundle'
 tap 'homebrew/core'
+tap 'homebrew/php'
 tap 'homebrew/python'
 tap 'homebrew/science'
 
@@ -54,6 +55,7 @@ brew 'wget'
 brew 'yarn'
 brew 'youtube-dl'
 brew 'homebrew/apache/httpd24'
+brew 'homebrew/php/php71', args: ['with-httpd24']
 brew 'homebrew/python/numpy', args: ['with-python3']
 brew 'homebrew/science/opencv'
 brew 'homebrew/science/opencv3', args: ['with-python3']
