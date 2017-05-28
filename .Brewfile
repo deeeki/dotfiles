@@ -57,6 +57,8 @@ brew 'yarn'
 brew 'youtube-dl'
 brew 'homebrew/apache/httpd24'
 brew 'homebrew/php/php71', args: ['with-httpd24']
+brew 'homebrew/php/php71-yaml'
+brew 'homebrew/php/php71-apcu-bc'
 brew 'homebrew/python/numpy', args: ['with-python3']
 brew 'homebrew/science/opencv'
 brew 'homebrew/science/opencv3', args: ['with-python3']
