@@ -27,6 +27,7 @@ cask 'skype'
 cask 'slack'
 cask 'steam'
 cask 'the-unarchiver'
+cask 'vagrant'
 cask 'vlc'
 
 brew 'android-ndk'
