@@ -1,19 +1,8 @@
 tap 'caskroom/cask'
-tap 'caskroom/homebrew-versions'
-tap 'homebrew/apache'
-tap 'homebrew/bundle'
-tap 'homebrew/core'
-tap 'homebrew/php'
-tap 'homebrew/python'
-tap 'homebrew/science'
 
 cask '1password'
-cask 'atom'
-cask 'cmd-eikana'
 cask 'dropbox'
-cask 'filezilla'
 cask 'firefox'
-cask 'genymotion'
 cask 'google-chrome'
 cask 'google-japanese-ime'
 cask 'iterm2'
@@ -30,8 +19,6 @@ cask 'the-unarchiver'
 cask 'vagrant'
 cask 'vlc'
 
-brew 'android-ndk'
-brew 'android-sdk'
 brew 'ansible'
 brew 'bash-completion'
 brew 'ctags'
@@ -40,26 +27,15 @@ brew 'ffmpeg', args: ['with-fdk-aac']
 brew 'git' # to enable git-completion.bash
 brew 'heroku'
 brew 'hub'
-brew 'imagemagick'
 brew 'jq'
 brew 'mackup'
 brew 'mongodb', restart_service: true
 brew 'mysql', restart_service: true
 brew 'postgresql', restart_service: true
 brew 'pow'
-brew 'python3'
 brew 'redis', restart_service: true
 brew 'tig'
 brew 'tree'
-brew 'typesafe-activator'
-brew 'watchman'
 brew 'wget'
 brew 'yarn'
 brew 'youtube-dl'
-brew 'homebrew/apache/httpd24'
-brew 'homebrew/php/php71', args: ['with-httpd24']
-brew 'homebrew/php/php71-yaml'
-brew 'homebrew/php/php71-apcu-bc'
-brew 'homebrew/python/numpy', args: ['with-python3']
-brew 'homebrew/science/opencv'
-brew 'homebrew/science/opencv3', args: ['with-python3']
