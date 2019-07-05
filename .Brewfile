@@ -1,4 +1,6 @@
 tap 'caskroom/cask'
+tap 'delphinus/macvim-kaoriya'
+tap 'heroku/brew'
 
 cask '1password'
 cask 'dropbox'
@@ -24,7 +26,7 @@ brew 'ansible'
 brew 'bash-completion'
 brew 'ctags'
 brew 'direnv'
-brew 'ffmpeg', args: ['with-fdk-aac']
+brew 'ffmpeg'
 brew 'git' # to enable git-completion.bash
 brew 'heroku'
 brew 'hub'
