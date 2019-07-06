@@ -8,6 +8,7 @@ brew 'ctags'
 brew 'direnv'
 brew 'ffmpeg'
 brew 'git' # to enable git-completion.bash
+brew 'graphicsmagick'
 brew 'heroku'
 brew 'hub'
 brew 'jq'
