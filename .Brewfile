@@ -18,6 +18,7 @@ brew 'mysql', restart_service: true
 brew 'postgresql', restart_service: true
 brew 'pow'
 brew 'redis', restart_service: true
+brew 'streamlink'
 brew 'tig'
 brew 'tree'
 brew 'wget'
