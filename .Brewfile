@@ -1,12 +1,13 @@
 tap 'caskroom/cask'
 tap 'delphinus/macvim-kaoriya'
 tap 'heroku/brew'
+tap 'homebrew-ffmpeg/ffmpeg'
 
 brew 'ansible'
 brew 'bash-completion'
 brew 'ctags'
 brew 'direnv'
-brew 'ffmpeg'
+brew 'homebrew-ffmpeg/ffmpeg/ffmpeg', args: ['with-fdk-aac']
 brew 'git' # to enable git-completion.bash
 brew 'graphicsmagick'
 brew 'heroku'
