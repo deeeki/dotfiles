@@ -6,6 +6,7 @@ tap 'homebrew-ffmpeg/ffmpeg'
 brew 'ansible'
 brew 'bash-completion'
 brew 'ctags'
+brew 'diff-pdf'
 brew 'direnv'
 brew 'homebrew-ffmpeg/ffmpeg/ffmpeg', args: ['with-fdk-aac']
 brew 'git' # to enable git-completion.bash
