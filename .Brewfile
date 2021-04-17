@@ -1,5 +1,4 @@
 tap 'caskroom/cask'
-tap 'delphinus/macvim-kaoriya'
 tap 'heroku/brew'
 tap 'homebrew-ffmpeg/ffmpeg'
 
@@ -39,7 +38,6 @@ cask 'java'
 cask 'karabiner-elements'
 cask 'kindle'
 cask 'libreoffice'
-cask 'macvim-kaoriya'
 cask 'night-owl'
 cask 'sequel-pro'
 cask 'skype'
