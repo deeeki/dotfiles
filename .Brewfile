@@ -3,6 +3,7 @@ tap 'heroku/brew'
 tap 'homebrew-ffmpeg/ffmpeg'
 
 brew 'ansible'
+brew 'awscli'
 brew 'bash-completion'
 brew 'ctags'
 brew 'diff-pdf'
