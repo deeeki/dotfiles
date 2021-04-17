@@ -3,10 +3,11 @@ Thumbs.db
 .bundle
 .env
 .envrc
+.node-version
 .project
-.settings
+.python-version
 .ruby-version
-.rvmrc
+.settings
 .vagrant
 restart.watchr
 tags
