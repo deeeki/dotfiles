@@ -83,6 +83,7 @@ au FileType yaml setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 au FileType ruby,eruby,cucumber setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 au FileType perl setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
 au FileType php setlocal tabstop=2 shiftwidth=2
+au FileType Dockerfile setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 
 nnoremap <C-h> :<C-u>help<Space>
 nnoremap <C-h><C-h> :<C-u>help<Space><C-r><C-w><Return>
