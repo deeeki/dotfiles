@@ -8,7 +8,6 @@
 !/.Brewfile
 !/.gemrc
 !/.git_excludesfile
-!/.git_templatedir
 !/.gitconfig.sample
 !/.gitignore
 !/.mackup

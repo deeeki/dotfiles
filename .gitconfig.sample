@@ -8,8 +8,6 @@
 	quotepath = false
 	pager = diff-highlight | less
 	editor = vim
-[init]
-	templatedir = ~/.git_templatedir
 [push]
 	default = simple
 [pull]
