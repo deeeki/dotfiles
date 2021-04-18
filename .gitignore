@@ -3,7 +3,6 @@
 
 !/README.md
 !/setup.sh
-!/.awsrc.sample
 !/.bashrc
 !/.bash_profile
 !/.Brewfile
