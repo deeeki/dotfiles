@@ -14,7 +14,7 @@ brew 'heroku'
 brew 'hub'
 brew 'jq'
 brew 'mackup'
-brew 'mongodb', restart_service: true
+brew 'mongodb/brew/mongodb-community', restart_service: true
 brew 'mysql', restart_service: true
 brew 'postgresql', restart_service: true
 brew 'redis', restart_service: true
