@@ -1,4 +1,3 @@
-brew 'ansible'
 brew 'awscli'
 brew 'bash-completion'
 brew 'ctags'
