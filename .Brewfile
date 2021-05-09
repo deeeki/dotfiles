@@ -1,6 +1,3 @@
-tap 'heroku/brew'
-tap 'homebrew-ffmpeg/ffmpeg'
-
 brew 'ansible'
 brew 'awscli'
 brew 'bash-completion'
@@ -10,7 +7,7 @@ brew 'direnv'
 brew 'homebrew-ffmpeg/ffmpeg/ffmpeg', args: ['with-fdk-aac']
 brew 'git' # to enable git-completion.bash
 brew 'graphicsmagick'
-brew 'heroku'
+brew 'heroku/brew/heroku'
 brew 'hub'
 brew 'jq'
 brew 'mackup'
