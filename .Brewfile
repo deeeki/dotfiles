@@ -18,7 +18,6 @@ brew 'mackup'
 brew 'mongodb', restart_service: true
 brew 'mysql', restart_service: true
 brew 'postgresql', restart_service: true
-brew 'pow'
 brew 'redis', restart_service: true
 brew 'streamlink'
 brew 'tig'
