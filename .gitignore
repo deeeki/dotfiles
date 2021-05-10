@@ -17,4 +17,5 @@
 !/.vimrc
 !/.zshrc
 !/.bundle/config
+!/.config/nvim/
 !/.ssh/config.sample
