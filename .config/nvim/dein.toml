@@ -2,4 +2,7 @@
 repo = 'Shougo/dein.vim'
 
 [[plugins]]
+repo = 'slim-template/vim-slim'
+
+[[plugins]]
 repo = 'tpope/vim-commentary'
