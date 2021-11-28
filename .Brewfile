@@ -7,7 +7,6 @@ brew 'homebrew-ffmpeg/ffmpeg/ffmpeg', args: ['with-fdk-aac']
 brew 'git' # to enable git-completion.bash
 brew 'graphicsmagick'
 brew 'heroku/brew/heroku'
-brew 'hub'
 brew 'jq'
 brew 'mackup'
 brew 'mongodb/brew/mongodb-community', restart_service: true
