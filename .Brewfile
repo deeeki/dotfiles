@@ -11,6 +11,7 @@ brew 'jq'
 brew 'mackup'
 brew 'mongodb/brew/mongodb-community', restart_service: true
 brew 'mysql', restart_service: true
+brew 'neovim'
 brew 'postgresql', restart_service: true
 brew 'redis', restart_service: true
 brew 'streamlink'
