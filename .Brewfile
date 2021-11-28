@@ -1,3 +1,4 @@
+brew 'asdf'
 brew 'awscli'
 brew 'bash-completion'
 brew 'ctags'
