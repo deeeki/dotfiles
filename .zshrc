@@ -13,6 +13,7 @@ alias mv='mv -i'
 alias rm='rm -i'
 alias 1l='cat ~/.oneliners'
 alias 1lg='cat ~/.oneliners | grep'
+alias vi='nvim'
 
 # Common #######################################################################
 [[ -f $HOME/.aliases ]] && source $HOME/.aliases
