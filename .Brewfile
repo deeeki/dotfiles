@@ -4,7 +4,7 @@ brew 'bash-completion'
 brew 'ctags'
 brew 'diff-pdf'
 brew 'direnv'
-brew 'homebrew-ffmpeg/ffmpeg/ffmpeg', args: ['with-fdk-aac']
+brew 'ffmpeg'
 brew 'git' # to enable git-completion.bash
 brew 'graphicsmagick'
 brew 'heroku/brew/heroku'
