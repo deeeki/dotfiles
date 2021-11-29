@@ -1,4 +1,7 @@
 [[plugins]]
+repo = 'leafgarland/typescript-vim'
+
+[[plugins]]
 repo = 'Shougo/dein.vim'
 
 [[plugins]]
