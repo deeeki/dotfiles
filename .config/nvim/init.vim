@@ -24,3 +24,5 @@ endif
 
 filetype plugin indent on
 syntax enable
+
+autocmd BufWritePre * :%s/\s\+$//ge
