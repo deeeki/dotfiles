@@ -17,6 +17,7 @@ endif
 call dein#begin(s:dein_dir)
 call dein#load_toml('~/.config/nvim/dein.toml',      {'lazy': 0})
 call dein#load_toml('~/.config/nvim/dein_lazy.toml', {'lazy': 1})
+call dein#load_toml('~/.config/nvim/dein_ft.toml')
 call dein#end()
 if dein#check_install()
  call dein#install()
