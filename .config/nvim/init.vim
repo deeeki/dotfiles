@@ -1,5 +1,6 @@
 set autoindent smartindent
 set clipboard& clipboard+=unnamedplus
+set list
 set number
 
 let s:dein_dir = expand('~/.cache/dein')
