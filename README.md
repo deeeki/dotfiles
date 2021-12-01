@@ -2,12 +2,22 @@
 
 Use the same environment everywhere.
 
-## Installation
+## macOS Monterey
 
-1. Clone it
-2. Run `setup.sh`
+```sh
+# Command Line Tools
+xcode-select --install
+sudo xcode-select -switch /Library/Developer/CommandLineTools
 
-### Vim
+# Homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install)"
+eval "$(/opt/homebrew/bin/brew shellenv)"
+curl https://raw.githubusercontent.com/deeeki/dotfiles/main/.Brewfile -o ~/.Brewfile
+brew bundle -v --global
 
-1. Open vim
-2. Run `:NeoBundleInstall`
+# Mackup
+mackup restore
+
+# Neovim
+pip3 install pynvim
+```
