@@ -1,0 +1,20 @@
+hook_add = '''
+autocmd BufNewFile,BufRead *.jbuilder setfiletype ruby
+'''
+
+[ftplugin]
+javascript = '''
+setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2
+'''
+vue = '''
+setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2
+'''
+typescriptreact = '''
+setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2
+'''
+ruby = '''
+setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2
+'''
+yaml = '''
+setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2
+'''
