@@ -1,8 +1,8 @@
 # Mac ##########################################################################
 [[ -f /opt/homebrew/bin/brew ]] && eval "$(/opt/homebrew/bin/brew shellenv)"
+[[ -f /usr/local/bin/brew ]] && eval "$(/usr/local/bin/brew shellenv)"
 
 [[ -d `brew --prefix asdf` ]] && source `brew --prefix asdf`/libexec/asdf.sh
-[[ -f ~/.anyenv/bin/anyenv ]] && export PATH="$HOME/.anyenv/bin:$PATH" && eval "$(anyenv init -)"
 
 [[ -d `brew --prefix`/share/git-core/contrib/diff-highlight ]] && export PATH=`brew --prefix`/share/git-core/contrib/diff-highlight:$PATH
 
