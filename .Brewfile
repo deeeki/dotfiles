@@ -5,6 +5,7 @@ brew 'git' # to enable git-completion.bash
 brew "graphicsmagick"
 brew "jq"
 brew "mackup"
+brew "mas"
 brew "neovim"
 brew "streamlink"
 brew "tig"
