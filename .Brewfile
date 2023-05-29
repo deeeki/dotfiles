@@ -32,3 +32,5 @@ cask "the-unarchiver"
 cask "visual-studio-code"
 cask "vlc"
 cask "zoom"
+
+mas "LINE", id: 539883307
